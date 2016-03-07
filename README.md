@@ -22,15 +22,15 @@ you can follow the [notebook](https://github.com/comp-journalism/2016-03-wapo-ub
 #Requirements
 If you use the Anaconda distribution, you're all set.
 
-Python 3 (does not work in python 2)
-ipython notebook / Jupyter
-pandas
-numpy
-matplotlib.pyplot
-scipy.stats  (for `pearsonr`)
-seaborn
-statsmodels.formula.api
-statsmodels.graphics.api (for `abline_plot`)
+* Python 3 (does not work in python 2)
+* ipython notebook / Jupyter
+* pandas
+* numpy
+* matplotlib.pyplot
+* scipy.stats  (for `pearsonr`)
+* seaborn
+* statsmodels.formula.api
+* statsmodels.graphics.api (for `abline_plot`)
 
 #Funding
 This project was funded by a grant from the Tow Foundation to study computational
