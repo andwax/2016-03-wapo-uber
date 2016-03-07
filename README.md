@@ -12,7 +12,7 @@ based on scripts of the same name from our [uberpy](https://github.com/comp-jour
 project.
 
 `config.config` was modified to collect every 3 minutes, provided a list of 276
-locations across DC, and provided a list of Uber API keys.
+locations across DC, and provided a list of [Uber API](https://developer.uber.com/) keys. 
 
 `gatherUberData.py` was modified to save data with the DC local datetime.
 
@@ -33,9 +33,7 @@ If you use the Anaconda distribution, you're all set.
 * statsmodels.graphics.api (for `abline_plot`)
 
 #Funding
-This project was funded by a grant from the Tow Foundation to study computational
-and data journalism with an emphasis on algorithmic accountability, narrative data
-visualization, and social computing in the news.
+This project was funded by a grant from the Tow Center for Digital Journalism to study computational and data journalism in the context of algorithmic accountability reporting. 
 
 #Feedback
 Email Jennifer A Stark at starkja@umd.edu
