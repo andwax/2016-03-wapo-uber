@@ -5,7 +5,7 @@ By [Jennifer A Stark](https://github.com/JAStark) and [Nick Diakopoulos](http://
 
 This is a repository is meant to support transparency and reproducibility of the data analysis and visualization presented in the Washington Post article [" "](www.wapo...). <- insert article URL. 
 
-If you have cloned this repo and downloaded the raw [Uber data](https://drive.google.com/folderview?id=0B-mutxqHY34rblhORk9raWxQQjQ&usp=sharing) (4 weeks),
+If you have cloned this repo and downloaded the raw [Uber data](https://drive.google.com/folderview?id=0B-mutxqHY34rblhORk9raWxQQjQ&usp=sharing),
 you can reproduce the analysis in this [notebook](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/UberSurgePricing_OSC.ipynb). 
 
 ## The Data
