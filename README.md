@@ -8,7 +8,8 @@ This is a repository is meant to support transparency and reproducibility of the
 If you have cloned this repo and downloaded the raw [data](https://drive.google.com/folderview?id=0B-mutxqHY34rblhORk9raWxQQjQ&usp=sharing),
 you can reproduce the analysis in this [notebook](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/UberSurgePricing_OSC.ipynb). 
 
-## Data: Collecting data with the Uber API
+## The Data
+## Collecting data with the Uber API
 Data were collected using the Uber API with config.config and gatherUberData.py -
 based on scripts of the same name from our [uberpy](https://github.com/comp-journalism/uberpy)
 project.
@@ -18,7 +19,6 @@ locations across DC, and provided a list of [Uber API](https://developer.uber.co
 
 `gatherUberData.py` was modified to save data with the DC local datetime.
 
-## The Data
 ###Sampling the Data 
 The method for determining the 276 locations in DC to sample used the following steps:
 * A 22 x 22 grid of longitudes and latitudes was applied across DC
@@ -29,7 +29,7 @@ The method for determining the 276 locations in DC to sample used the following 
 * New tract center latitudes and longitudes were again address validated. Only 7 were not valid, and so those points were manually moved the smallest distance possible to a valid address. 
 
 ###Data Dictionary
-The following fields are available in the data download
+The following fields are available in the data download:
 * **"timestamp"** : `string`, Date and Time (EST) when API was pinged
 * **"surge_multiplier"**: `float`, The surge multiplier for the current time and location
 * **"expected_wait_time"**: `integer`, The number of seconds rider may have to wait between requesting a car, and the car's arrival
