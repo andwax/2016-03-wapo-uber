@@ -29,7 +29,7 @@ The method for determining the 276 locations in DC to sample used the following 
 * New tract center latitudes and longitudes were again address validated. Only 7 were not valid, and so those points were manually moved the smallest distance possible to a valid address. 
 
 ###Data Dictionary
-The following fields are available in the data download:
+The following fields are available in the [data download](https://drive.google.com/folderview?id=0B-mutxqHY34rblhORk9raWxQQjQ&usp=sharing):
 * **"timestamp"** : `string`, Date and Time (EST) when API was pinged
 * **"surge_multiplier"**: `float`, The surge multiplier for the current time and location
 * **"expected_wait_time"**: `integer`, The number of seconds rider may have to wait between requesting a car, and the car's arrival
