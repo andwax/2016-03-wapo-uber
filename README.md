@@ -9,7 +9,7 @@ If you have cloned this repo and downloaded the raw [data](https://drive.google.
 you can reproduce the analysis in this [notebook](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/UberSurgePricing_OSC.ipynb). 
 
 ## The Data
-## Collecting data with the Uber API
+### Collecting data with the Uber API
 Data were collected using the Uber API with config.config and gatherUberData.py -
 based on scripts of the same name from our [uberpy](https://github.com/comp-journalism/uberpy)
 project.
