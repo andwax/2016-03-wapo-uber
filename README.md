@@ -19,7 +19,7 @@ locations across DC, and provided a list of [Uber API](https://developer.uber.co
 
 `gatherUberData.py` was modified to save data with the DC local datetime.
 
-###Sampling the Data 
+###Sampling the Data using [get_geographic_data.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/get_geographic_data.ipynb) in Python2 (the only part requiring Python2) followed by [Mapping_points_across_DC.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/Mapping_points_across_DC.ipynb) in Python3. 
 The method for determining the 276 locations in DC to sample used the following steps:
 * A 22 x 22 grid of longitudes and latitudes was applied across DC
 * Addresses were then associated with each point using `Nominatim` from `geopy.geocoders` (installed with `pip`). Any point not in DC was removed.
@@ -52,7 +52,7 @@ The following fields are available in the [data download](https://drive.google.c
 #Requirements
 If you use the Anaconda distribution, you're all set.
 
-* Python 3 (does not work in python 2)
+* Python 3 (and python 2 only for [get_geographic_data.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/get_geographic_data.ipynb) )
 * ipython notebook / Jupyter
 * pandas
 * numpy
