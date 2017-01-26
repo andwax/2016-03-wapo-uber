@@ -1,0 +1,8 @@
+*.ai
+
+data/TractsSurgeDC3.csv
+data/TractsSurgeDC3-Dec26.csv
+
+.ipynb_checkpoints
+
+data/uber.csv

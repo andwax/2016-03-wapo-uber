@@ -64,11 +64,16 @@ def gather_loop():
 	global tokennum
 	# A list to hold our things to do via async
 	async_action_items = []
-	common_data_dict = {}
+
+	# need one dictionary for every pair of requests
+	common_data_dicts = []
+	for i in range (0,len(api_params) / 2):
+		common_data_dicts.append({})
+
 	for i, api_param in enumerate(api_params):
 		# Get the current time
 		api_param["datetime"] = aslocaltimestr(datetime.utcnow())
-		api_param["data"] = common_data_dict
+		api_param["data"] = common_data_dicts[(int)(i / 2)]
 		api_param["parameters"]["server_token"] = uber_server_tokens[tokennum % len(uber_server_tokens)]
 		# From here: http://stackoverflow.com/questions/25115151/how-to-pass-parameters-to-hooks-in-python-grequests
 		action_item = grequests.get(api_param["url"]+"?"+urllib.urlencode(api_param["parameters"]), hooks={'response': [hook_factory(api_param)]})
@@ -146,4 +151,4 @@ while True:
 	time.sleep(1)
 
 
-# nohup python -u gatherUberData.py > nohup.txt &
+# nohup python27 -u gatherUberData.py > nohup.txt &
