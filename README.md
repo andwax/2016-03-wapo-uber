@@ -3,7 +3,7 @@ __________
 # **Correction to** ["Uber seems to offer better service in areas with more white people. That raises some tough questions"](https://www.washingtonpost.com/news/wonk/wp/2016/03/10/uber-seems-to-offer-better-service-in-areas-with-more-white-people-that-raises-some-tough-questions/)
 By [Jennifer A Stark](https://github.com/JAStark) and [Nick Diakopoulos](http://www.nickdiakopoulos.com)
 
-**An Issue submitted by romelf#1 alerted us to a bug in our gatherUberData.py script (code copied from [uberpy](https://github.com/comp-journalism/uberpy) repository). We fixed the bug in October 2016, and collected a new Uber dataset, which is available [here](https://drive.google.com/file/d/0B-mutxqHY34rOGZpV0pxem1aYzQ/view?usp=sharing) and here[https://drive.google.com/file/d/0B-mutxqHY34rdFhCZGkwaWM1LW8/view?usp=sharing].**
+**An Issue submitted by romelf#1 alerted us to a bug in our gatherUberData.py script (code copied from [uberpy](https://github.com/comp-journalism/uberpy) repository). We fixed the bug in October 2016, and collected a new Uber dataset, which is available [here](https://drive.google.com/file/d/0B-mutxqHY34rOGZpV0pxem1aYzQ/view?usp=sharing) and [here](https://drive.google.com/file/d/0B-mutxqHY34rdFhCZGkwaWM1LW8/view?usp=sharing).**
 
 This is the default branch and contains all the files from the original Master branch, with a new [UberSurgePricing_OSC.ipynb](LINK) analyzing the new data. The original analysis and code can still be found in the Master branch.
 
