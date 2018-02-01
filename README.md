@@ -84,7 +84,7 @@ locations across DC, and provided a list of [Uber API](https://developer.uber.co
 
 `gatherUberData.py` was modified to save data with the DC local datetime.
 
-###Sampling the Data using [get_geographic_data.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/get_geographic_data.ipynb) in Python2 (the only part requiring Python2) followed by [Mapping_points_across_DC.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/Mapping_points_across_DC.ipynb) in Python3.
+### Sampling the Data using [get_geographic_data.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/get_geographic_data.ipynb) in Python2 (the only part requiring Python2) followed by [Mapping_points_across_DC.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/Mapping_points_across_DC.ipynb) in Python3.
 The method for determining the 276 locations in DC to sample used the following steps:
 * A 22 x 22 grid of longitudes and latitudes was applied across DC
 * Addresses were then associated with each point using `Nominatim` from `geopy.geocoders` (installed with `pip`). Any point not in DC was removed.
@@ -95,7 +95,7 @@ The method for determining the 276 locations in DC to sample used the following 
 
 These points were sampled every 3 minutes for 4 weeks from February 3 to March 2, 2016.
 
-###Data Dictionary
+### Data Dictionary
 The following fields are available in the [data download](https://drive.google.com/folderview?id=0B-mutxqHY34rblhORk9raWxQQjQ&usp=sharing):
 * **"timestamp"** : `string`, Date and Time (EST) when API was pinged
 * **"surge_multiplier"**: `float`, The surge multiplier for the current time and location
@@ -114,7 +114,7 @@ The following fields are available in the [data download](https://drive.google.c
 * **"start_location_id"**: `integer`, number between 0-275 that relates to our predetermined longitudes and latitudes across DC.
 * **"end_location_id"**: `integer`,  number between 0-275 that relates to our predetermined longitudes and latitudes across DC.
 
-#Requirements
+# Requirements
 If you use the Anaconda distribution, you're all set.
 
 * Python 3 (and python 2 only for [get_geographic_data.ipynb](https://github.com/comp-journalism/2016-03-wapo-uber/blob/master/get_geographic_data.ipynb) )
@@ -127,8 +127,8 @@ If you use the Anaconda distribution, you're all set.
 * statsmodels.formula.api
 * statsmodels.graphics.api (for `abline_plot`)
 
-#Funding
+# Funding
 This project was funded by a grant from the Tow Center for Digital Journalism to study computational and data journalism in the context of algorithmic accountability reporting.
 
-#Feedback
-Email Jennifer A Stark at starkja@umd.edu
+# Feedback
+Email Jennifer A Stark at jastark1@gmail.com
